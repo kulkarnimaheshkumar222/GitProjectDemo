@@ -13,6 +13,10 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        print("Welcome to git")
+    }
+    override func viewWillAppear(_ animated: Bool) {
+        print("Inside view will appear")
     }
 
 
